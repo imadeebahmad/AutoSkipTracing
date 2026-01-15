@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AutoSkip Tracer",
   "description": "Automates searches on TruePeopleSearch and similar sites, exporting results to CSV.",
-  "version": "2026.01.14",
+  "version": "2026.01.15",
   "icons": {
     "16": "utz.png"
   },
