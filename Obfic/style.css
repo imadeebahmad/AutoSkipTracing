@@ -16,6 +16,7 @@
 .form-group label {
   display: block;
   margin-bottom: 5px;
+  font-weight: normal;
 }
 
 .form-group input {
@@ -27,6 +28,7 @@
 button {
   margin-top: 20px;
 }
+
 /* Active tab styling */
 .tab {
   display: inline-block;
@@ -47,11 +49,13 @@ button {
   font-size: 18px;
   line-height: 1.2;
 }
+
 .tabs {
   display: flex;
   margin-bottom: 8px;
   gap: 0;
 }
+
 .tab {
   flex: 1;
   padding: 8px 4px;
@@ -61,18 +65,23 @@ button {
   transition: all 0.3s;
   font-size: 13px;
 }
+
 .tab.active {
   border-bottom: 2px solid #4caf50;
   color: #4caf50;
 }
+
 .form-group {
   margin-bottom: 0.5rem;
 }
+
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
   color: #666;
+  font-weight: normal;
 }
+
 .form-group input {
   width: 100%;
   padding: 0.8rem;
@@ -80,10 +89,12 @@ button {
   border-radius: 5px;
   transition: border-color 0.3s;
 }
+
 .form-group input:focus {
   border-color: #4caf50;
   outline: none;
 }
+
 .btn {
   width: 100%;
   padding: 1rem;
@@ -95,6 +106,7 @@ button {
   font-size: 1rem;
   transition: background 0.3s;
 }
+
 .btn:hover {
   background: #45a049;
 }
@@ -103,7 +115,8 @@ button {
 .tutorial-button,
 .update-button {
   display: inline-block;
-  padding: 3px 20px; /* Adjusted padding */
+  padding: 3px 20px;
+  /* Adjusted padding */
   font-size: 16px;
   color: white;
   border: none;
@@ -118,32 +131,40 @@ button {
 
 /* Styles for Tutorial button */
 .tutorial-button {
-  background-color: #ff0000; /* YouTube Red */
+  background-color: #ff0000;
+  /* YouTube Red */
 }
 
 .tutorial-button:hover {
-  background-color: #cc0000; /* Darker YouTube Red */
+  background-color: #cc0000;
+  /* Darker YouTube Red */
 }
 
 /* Styles for Update button */
 .update-button {
-  background-color: #007bff; /* Blue color */
+  background-color: #007bff;
+  /* Blue color */
 }
 
 .update-button:hover {
-  background-color: #0056b3; /* Darker Blue */
+  background-color: #0056b3;
+  /* Darker Blue */
 }
 
 /* Removed unused join/contact button styles */
 
 /* Body Styling */
 body {
-  font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif; /* Narrow, clear system stack */
-  font-size: 13px; /* Unified compact size */
+  font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
+  /* Narrow, clear system stack */
+  font-size: 13px;
+  /* Unified compact size */
   line-height: 1.25;
   width: 640px;
-  margin:auto; /* Center the content */
-  background-color: #f0f0f0; /* Background Color: Light Gray */
+  margin: auto;
+  /* Center the content */
+  background-color: #f0f0f0;
+  /* Background Color: Light Gray */
 }
 
 /* File Input Styling */
@@ -174,8 +195,10 @@ input[type="number"] {
 button {
   display: inline-block;
   padding: 5px 10px;
-  background-color: #4c8ebf; /* Primary Color: Blue */
-  color: #ffffff; /* Text Color: White */
+  background-color: #4c8ebf;
+  /* Primary Color: Blue */
+  color: #ffffff;
+  /* Text Color: White */
   border-radius: 5px;
   text-decoration: none;
   margin: 5px;
@@ -183,7 +206,8 @@ button {
 
 /* Hover Effect */
 Button:hover {
-  background-color: #3a729e; /* Darker shade of primary color on hover */
+  background-color: #3a729e;
+  /* Darker shade of primary color on hover */
 }
 
 /* Active State Effect */
@@ -194,8 +218,10 @@ button:active {
 /* Section Header Styling */
 h1 {
   font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
-  background-color: #4c8ebf; /* Primary Color: Blue */
-  color: #ffffff; /* Text Color: White */
+  background-color: #4c8ebf;
+  /* Primary Color: Blue */
+  color: #ffffff;
+  /* Text Color: White */
   text-align: center;
   padding: 6px;
   border-radius: 16px;
@@ -206,8 +232,10 @@ h1 {
 /* Section Header Styling */
 h3 {
   font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
-  background-color: #2e8b57; /* Emerald */
-  color: #fffff0; /* Ivory */
+  background-color: #2e8b57;
+  /* Emerald */
+  color: #fffff0;
+  /* Ivory */
   text-align: center;
   padding: 4px;
   border-radius: 12px;
@@ -225,7 +253,8 @@ p {
 
 .section-title {
   font-family: inherit;
-  font-size: 14px; /* Match Export label size */
+  font-size: 14px;
+  /* Match Export label size */
   font-weight: 700;
   margin: 0 0 4px 0;
 }
@@ -233,20 +262,20 @@ p {
 /* Removed generic table styling; preview table has scoped classes */
 /* Wrapper Styling */
 #wrapper {
-  background-color: #ffffff; /* Background Color: White */
+  background-color: #ffffff;
+  /* Background Color: White */
   padding: 5px 20px 5px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 label {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-   padding: 05;
-   margin-bottom: 10px;
-   display: inline-block;  
-   /*
-   display: inline-block;       Ensures the width is applied 
-  
-  width: 70px;          */
+  padding: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: normal;
+  /* Force normal weight on all labels */
 }
 
 #snackbar {
@@ -260,13 +289,18 @@ label {
   text-align: center;
   border-radius: 20px;
   padding: 5px 6px;
-  z-index: 10000; /* Higher than activation modal (1010) to appear on top */
+  z-index: 10000;
+  /* Higher than activation modal (1010) to appear on top */
   position: fixed;
   width: 550px;
-  margin: 5% auto; /* Center horizontally */
-  top: 80px; /* Distance from the top */
-  left: 50%; /* Position relative to the horizontal center */
-  transform: translateX(-50%); /* Center horizontally */
+  margin: 5% auto;
+  /* Center horizontally */
+  top: 80px;
+  /* Distance from the top */
+  left: 50%;
+  /* Position relative to the horizontal center */
+  transform: translateX(-50%);
+  /* Center horizontally */
 }
 
 #snackbar b {
@@ -293,6 +327,7 @@ label {
     top: 0;
     opacity: 0;
   }
+
   to {
     top: 80px;
     opacity: 1;
@@ -304,6 +339,7 @@ label {
     top: 80px;
     opacity: 1;
   }
+
   to {
     top: 0;
     opacity: 0;
@@ -318,15 +354,20 @@ label {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  display: none; /* Hidden by default */
-  z-index: 1000; /* Ensures it sits above other content */
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  display: none;
+  /* Hidden by default */
+  z-index: 1000;
+  /* Ensures it sits above other content */
 }
 
 /* Activation form styling */
 #Activation_Model {
-  display: block; /* Display activation form by default */
-  z-index: 1010; /* Higher than the payment modal */
+  display: block;
+  /* Display activation form by default */
+  z-index: 1010;
+  /* Higher than the payment modal */
 }
 
 #Activation_Model #closeModal {
@@ -347,7 +388,7 @@ label {
   max-width: 480px;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 #Activation_Model h2 {
@@ -362,6 +403,7 @@ label {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
+  font-weight: normal;
 }
 
 .form-group input {
@@ -423,7 +465,8 @@ label {
 
 /* Loader overlay initially hidden */
 #loader {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -431,17 +474,23 @@ label {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999; /* Ensure it overlays other content */
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-  backdrop-filter: blur(5px); /* Blur effect */
+  z-index: 9999;
+  /* Ensure it overlays other content */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent background */
+  backdrop-filter: blur(5px);
+  /* Blur effect */
 }
 
 /* CSS spinner */
 .spinner {
-  width: 60px; /* Adjust size as needed */
+  width: 60px;
+  /* Adjust size as needed */
   height: 60px;
-  border: 8px solid #f3f3f3; /* Light grey border */
-  border-top: 8px solid #3498db; /* Blue border on top */
+  border: 8px solid #f3f3f3;
+  /* Light grey border */
+  border-top: 8px solid #3498db;
+  /* Blue border on top */
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -451,6 +500,7 @@ label {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -462,6 +512,7 @@ label {
   justify-content: space-between;
   margin-bottom: 10px;
 }
+
 .Radiolabel {
   flex: 1;
   margin: 0 5px;
@@ -476,13 +527,17 @@ label {
   align-items: center;
   justify-content: center;
 }
+
 input[type="radio"] {
-  margin-right: 8px; /* Space between radio button and label */
+  margin-right: 8px;
+  /* Space between radio button and label */
   cursor: pointer;
 }
-input[type="radio"]:checked + span {
+
+input[type="radio"]:checked+span {
   font-weight: bold;
-  color: #007bff; /* Change color on selection */
+  color: #007bff;
+  /* Change color on selection */
 }
 
 /* Export Row (Save & Export) */
@@ -496,10 +551,12 @@ input[type="radio"]:checked + span {
   white-space: nowrap;
   width: 100%;
 }
+
 .export-label {
   font-weight: 700;
   margin-right: 8px;
-  font-size: 14px; /* Keep consistent with section title */
+  font-size: 14px;
+  /* Keep consistent with section title */
 }
 
 /* Saved Rows Preview Modal */
@@ -512,8 +569,9 @@ input[type="radio"]:checked + span {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
 .saved-preview-container {
   background-color: #fefefe;
   margin: 5% auto;
@@ -523,28 +581,33 @@ input[type="radio"]:checked + span {
   max-width: 800px;
   border-radius: 6px;
 }
+
 .saved-preview-container .header {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  align-items:center;
-  margin-bottom:6px;
+  align-items: center;
+  margin-bottom: 6px;
 }
+
 .saved-preview-table-wrap {
   max-height: 420px;
-  overflow:auto;
-  border:1px solid #ddd;
+  overflow: auto;
+  border: 1px solid #ddd;
 }
+
 .saved-preview-table {
-  width:100%;
+  width: 100%;
   border-collapse: collapse;
   font-size: 12px;
 }
+
 .saved-preview-table th {
-  border:1px solid #ddd;
-  padding:4px;
-  background:#f7f7f7;
+  border: 1px solid #ddd;
+  padding: 4px;
+  background: #f7f7f7;
 }
+
 .saved-preview-table td {
-  border:1px solid #ddd;
-  padding:4px;
+  border: 1px solid #ddd;
+  padding: 4px;
 }
