@@ -9,11 +9,6 @@
   "permissions": [
     "activeTab",
     "scripting",
-    "declarativeNetRequest",
-    "webRequest",
-    "browsingData",
-    "history",
-    "proxy",
     "identity",
     "identity.email",
     "downloads",
