@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AutoSkip Tracer",
   "description": "Automates searches on TruePeopleSearch and similar sites, exporting results to CSV.",
-  "version": "2026.01.15",
+  "version": "2026.01.20",
   "icons": {
     "16": "utz.png"
   },
@@ -25,14 +25,6 @@
     "service_worker": "background.js"
   },
   "content_scripts": [
-    {
-      "matches": [
-        "https://*/*"
-      ],
-      "js": [
-        "jquery-3.6.0.min.js"
-      ]
-    },
     {
       "matches": [
         "https://*.truepeoplesearch.com/*"
