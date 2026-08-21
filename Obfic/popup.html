@@ -13,8 +13,10 @@
     <div id="dynamic-content" style="display: none;"></div>
 
     <!-- Core libraries are loaded first -->
-    <script src="crypto-js.js"></script>
-  <script src="jquery-3.6.0.min.js"></script>
+    <!-- crypto-js.js removed from the popup load path: it is never referenced by
+         popup.js or script.js, so loading 204 KB on every popup open only delayed
+         first paint. Re-add it here (before popup.js) if CryptoJS is ever needed. -->
+    <script src="jquery-3.6.0.min.js"></script>
     
     <!-- Common utilities shared across extension -->
 
